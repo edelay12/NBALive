@@ -1,0 +1,22 @@
+#teamImg {
+    width:130px;
+    height: 130px;
+}
+
+#teamCheckLabel {
+
+
+}
+
+.subContainer {
+    padding: 20px;
+    height: 180px;
+    
+}
+
+.teamCheck{
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+

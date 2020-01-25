@@ -1,38 +1,47 @@
+
 .App {
+  padding: 0 20px;
+  text-align: center;
+
+}
+body {
+  background: #98CB3F;
+}
+.pageHeader {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.siteLabel {
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+Link {
+  cursor: pointer;
+}
+.teamsList {
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.teamContainer {
+  width: 200px;
+  height: 200px;
+margin: 30px;
+position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#addTeamsButton {
+  padding: 5px;
+  background: whitesmoke;
+  border: 1px solid white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+  width: 200px;
+  height: 50px;
+  box-shadow:5px 0px 5px lightgrey;
+  border-radius: 6px;
 }
